@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/hello-gradle-publish.iml" filepath="$PROJECT_DIR$/.idea/modules/hello-gradle-publish.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/hello-gradle-publish_main.iml" filepath="$PROJECT_DIR$/.idea/modules/hello-gradle-publish_main.iml" group="hello-gradle-publish" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/hello-gradle-publish_test.iml" filepath="$PROJECT_DIR$/.idea/modules/hello-gradle-publish_test.iml" group="hello-gradle-publish" />
+    </modules>
+  </component>
+</project>

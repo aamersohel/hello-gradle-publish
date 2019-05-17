@@ -1,0 +1,39 @@
+plugins {
+    id "com.gradle.plugin-publish" version "0.10.1"
+    id "java-gradle-plugin"
+}
+
+group 'io.github.aamersohel'
+version '1.0'
+
+pluginBundle {
+    website = '<substitute your project website>'
+    vcsUrl = '<uri to project source repository>'
+    tags = ['tags', 'for', 'your', 'plugins']
+}
+
+// The configuration example below shows the minimum required properties
+// configured to publish your plugin to the plugin portal
+pluginBundle {
+    website = 'http://www.gradle.org/'
+    vcsUrl = 'https://github.com/gradle/gradle'
+    description = 'Greetings from here!'
+    tags = ['greetings', 'salutations']
+
+    plugins {
+        greetingsPlugin {
+            // id is captured from java-gradle-plugin configuration
+            displayName = 'Gradle Greeting plugin'
+        }
+    }
+}
+
+sourceCompatibility = 1.8
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    testImplementation 'junit:junit:4.12'
+}
